@@ -23,9 +23,9 @@ public class NewTest {
 	
 		System.out.println("Title: " + webDriver.getTitle());
 		
-		Assert.assertLinkPresent("home");
-		Assert.clickLink("home");
-		Assert.assertTitleEquals("Home");
+//		Assert.assertLinkPresent("home");
+//		Assert.clickLink("home");
+//		Assert.assertTitleEquals("Home");
 		
 		webDriver.findElement(By.className("btn-success")).click();
 		
