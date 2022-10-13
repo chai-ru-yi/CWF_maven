@@ -45,7 +45,17 @@
 
 	<dependencies>
 
-		
+		<dependency>
+			<groupId>${selenium.groupId}</groupId>
+			<artifactId>${selenium.artifactId}</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>${selenium.groupId}</groupId>
+			<artifactId>${selenium.artifactId}</artifactId>
+			<version>${selenium.version}</version>
+		</dependency>
 
 		<dependency>
 			<groupId>${testng.groupId}</groupId>
