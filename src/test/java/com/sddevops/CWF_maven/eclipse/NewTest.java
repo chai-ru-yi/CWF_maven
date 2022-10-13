@@ -1,4 +1,7 @@
 package com.sddevops.CWF_maven.eclipse;
+
+import static org.junit.jupiter.api.Assertions.*;
+
 import java.util.List;
 
 import org.testng.annotations.Test;
@@ -14,47 +17,57 @@ import org.testng.Assert;
 public class NewTest {
 	// declare Selenium WebDriver
 	private WebDriver webDriver;
+	private FaceMaskCollection fm;
+	private FaceMask f1;
+	private FaceMask f2;
+	private FaceMask f3;
+	private final int FACEMASK_COLLECTION_SIZE = 3;
 
 	@Test
-	public void checkTitle() {
+	public void checkTitle1() {
 		webDriver.navigate().to("http://localhost:8090/BeautyMasks/ProductServlet/dashboard");
-	
+
 		Assert.assertEquals(webDriver.getTitle(), "Product List");
-	
+
 		System.out.println("Title: " + webDriver.getTitle());
-		
-//		Assert.assertLinkPresent("home");
-//		Assert.clickLink("home");
-//		Assert.assertTitleEquals("Home");
-		
+
+
 		webDriver.findElement(By.className("btn-success")).click();
-		
+
 		Assert.assertTrue(webDriver.getTitle().contains("Add Product Listing"));
 		System.out.println("New title: " + webDriver.getTitle());
 	}
 
-	
-	
-	
-	
-	
-	
-	
-	
+	@Test
+	public void checkTitle2() {
+		webDriver.navigate().to("http://localhost:8090/BeautyMasks/AddProductListing.jsp");
+
+		Assert.assertEquals(webDriver.getTitle(), "Add Product Listing");
+
+		System.out.println("Title: " + webDriver.getTitle());
+
+		webDriver.findElement(By.className("btn-success")).click();
+
+		
+		System.out.println("New title: " + webDriver.getTitle());
+	}
+
+
+
 	@BeforeTest
 	public void beforeTest() {
-		// Setting system properties of ChromeDriver
-		// use C:\Program Files\Google\Chrome\chromedriver_win32
+		
 		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\Google\\Chrome\\chromedriver.exe");
 
-		// initialize FirefoxDriver at the start of test
 		webDriver = new ChromeDriver();
 	}
 
+
+
 	@AfterTest
 	public void afterTest() {
-		// Quit the ChromeDriver and close all associated window at the end of test
-		//webDriver.quit();
+		
+		// webDriver.quit();
 	}
 
 }
