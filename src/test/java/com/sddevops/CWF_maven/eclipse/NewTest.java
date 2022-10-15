@@ -17,11 +17,9 @@ import org.testng.Assert;
 public class NewTest {
 	// declare Selenium WebDriver
 	private WebDriver webDriver;
-	private FaceMaskCollection fm;
-	private FaceMask f1;
-	private FaceMask f2;
-	private FaceMask f3;
-	private final int FACEMASK_COLLECTION_SIZE = 3;
+	
+	
+
 
 	@Test
 	public void checkTitle1() {
@@ -70,6 +68,6 @@ public class NewTest {
 		// webDriver.quit();
 	}
 	
-	//Chai Ru Yi
+	
 
 }
