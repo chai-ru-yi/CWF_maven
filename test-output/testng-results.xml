@@ -2,24 +2,24 @@
 <testng-results total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-16T13:37:26Z" name="Default suite" finished-at="2022-10-16T13:37:31Z" duration-ms="4896">
+  <suite started-at="2022-10-17T09:09:33Z" name="Default suite" finished-at="2022-10-17T09:09:42Z" duration-ms="8527">
     <groups>
     </groups>
-    <test started-at="2022-10-16T13:37:26Z" name="Default test" finished-at="2022-10-16T13:37:31Z" duration-ms="4896">
+    <test started-at="2022-10-17T09:09:33Z" name="Default test" finished-at="2022-10-17T09:09:42Z" duration-ms="8527">
       <class name="com.sddevops.CWF_maven.eclipse.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@71e693fa]" started-at="2022-10-16T06:37:26Z" name="beforeTest" finished-at="2022-10-16T06:37:29Z" duration-ms="2646" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@34dc85a]" started-at="2022-10-17T02:09:33Z" name="beforeTest" finished-at="2022-10-17T02:09:39Z" duration-ms="6126" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="checkTitle1()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@71e693fa]" started-at="2022-10-16T06:37:29Z" name="checkTitle1" finished-at="2022-10-16T06:37:30Z" duration-ms="1835" status="PASS">
+        <test-method signature="checkTitle1()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@34dc85a]" started-at="2022-10-17T02:09:39Z" name="checkTitle1" finished-at="2022-10-17T02:09:41Z" duration-ms="1912" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle1 -->
-        <test-method signature="checkTitle2()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@71e693fa]" started-at="2022-10-16T06:37:31Z" name="checkTitle2" finished-at="2022-10-16T06:37:31Z" duration-ms="378" status="PASS">
+        <test-method signature="checkTitle2()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@34dc85a]" started-at="2022-10-17T02:09:41Z" name="checkTitle2" finished-at="2022-10-17T02:09:42Z" duration-ms="369" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@71e693fa]" started-at="2022-10-16T06:37:31Z" name="afterTest" finished-at="2022-10-16T06:37:31Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@34dc85a]" started-at="2022-10-17T02:09:42Z" name="afterTest" finished-at="2022-10-17T02:09:42Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
