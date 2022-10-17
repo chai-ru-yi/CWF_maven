@@ -1,4 +1,4 @@
-package com.sddevops.CWF_maven.eclipse;
+package first.webapp;
 
 import java.io.IOException;
 import java.sql.Connection;

@@ -91,7 +91,7 @@
 			<scope>test</scope>
 		</dependency>
 
-<dependency>
+		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
 			<version>3.1.0</version>
@@ -139,7 +139,7 @@
 							<goal>report</goal>
 						</goals>
 					</execution>
-					
+
 				</executions>
 			</plugin>
 		</plugins>
@@ -159,7 +159,14 @@
 				</plugin>
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.8.0</version>
+					<version>3.8.1</version>
+					<configuration>
+						<release>15</release>
+					</configuration>
+				</plugin>
+				<plugin>
+					<artifactId>maven-war-plugin</artifactId>
+					<version>3.2.3</version>
 				</plugin>
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>

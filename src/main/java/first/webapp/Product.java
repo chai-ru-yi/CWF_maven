@@ -1,4 +1,4 @@
-package com.sddevops.CWF_maven.eclipse;
+package first.webapp;
 public class Product {
 	protected String product_name;
 	protected String description;

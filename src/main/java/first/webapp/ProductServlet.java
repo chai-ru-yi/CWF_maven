@@ -1,4 +1,4 @@
-package com.sddevops.CWF_maven.eclipse;
+package first.webapp;
 
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -164,7 +164,7 @@ public class ProductServlet extends HttpServlet {
 		// your project name)
 		// The sample uses project name as HelloWorldJaveEE. Use your own proj name if
 		// its not the same.
-		response.sendRedirect("http://localhost:8090/BeautyMasks/ProductServlet/dashboard");
+		response.sendRedirect("http://localhost:8090/CWF_maven.eclipse/ProductServlet/dashboard");
 	}
 
 	//method to delete user
@@ -179,7 +179,7 @@ public class ProductServlet extends HttpServlet {
 	int i = statement.executeUpdate();
 	}
 	//Step 3: redirect back to UserServlet dashboard (note: remember to change the url to your project name)
-	response.sendRedirect("http://localhost:8090/BeautyMasks/ProductServlet/dashboard");
+	response.sendRedirect("http://localhost:8090/CWF_maven.eclipse/ProductServlet/dashboard");
 	}
 	
 	
