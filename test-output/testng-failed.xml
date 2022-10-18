@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite parallel="none" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test name="Default test" verbose="2">
+<suite parallel="none" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test">
     <classes>
       <class name="com.sddevops.CWF_maven.eclipse.NewTest"/>
+      <class name="com.sddevops.CWF_maven.eclipse.AppTest"/>
     </classes>
-  </test> <!-- Default test -->
-  <test parallel="none" name="Default test(failed)">
-    <classes>
-      <class name="com.sddevops.CWF_maven.eclipse.NewTest">
-        <methods>
-          <include name="afterTest"/>
-          <include name="checkTitle2"/>
-          <include name="beforeTest"/>
-        </methods>
-      </class> <!-- com.sddevops.CWF_maven.eclipse.NewTest -->
-    </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test -->
+</suite> <!-- Failed suite [Suite] -->

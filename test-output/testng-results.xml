@@ -1,65 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="1" passed="0" failed="1" skipped="0">
+<testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-17T23:55:47Z" name="Default suite" finished-at="2022-10-17T23:55:53Z" duration-ms="6216">
+  <suite started-at="2022-10-18T10:47:18Z" name="Suite" finished-at="2022-10-18T10:47:22Z" duration-ms="4152">
     <groups>
     </groups>
-    <test started-at="2022-10-17T23:55:47Z" name="Default test" finished-at="2022-10-17T23:55:53Z" duration-ms="6216">
+    <test started-at="2022-10-18T10:47:18Z" name="Test" finished-at="2022-10-18T10:47:22Z" duration-ms="4152">
       <class name="com.sddevops.CWF_maven.eclipse.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@8e50104]" started-at="2022-10-17T16:55:47Z" name="beforeTest" finished-at="2022-10-17T16:55:52Z" duration-ms="5238" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@4241e0f4]" started-at="2022-10-18T03:47:18Z" name="beforeTest" finished-at="2022-10-18T03:47:21Z" duration-ms="3081" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="checkTitle2()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@8e50104]" started-at="2022-10-17T16:55:52Z" name="checkTitle2" finished-at="2022-10-17T16:55:53Z" duration-ms="893" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Add Product Listing] but found [HTTP Status 500 – Internal Server Error]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Add Product Listing] but found [HTTP Status 500 – Internal Server Error]
-	at org.testng.Assert.fail(Assert.java:94)
-	at org.testng.Assert.failNotEquals(Assert.java:513)
-	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
-	at org.testng.Assert.assertEquals(Assert.java:116)
-	at org.testng.Assert.assertEquals(Assert.java:190)
-	at org.testng.Assert.assertEquals(Assert.java:200)
-	at com.sddevops.CWF_maven.eclipse.NewTest.checkTitle2(NewTest.java:28)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at org.testng.TestRunner.privateRun(TestRunner.java:782)
-	at org.testng.TestRunner.run(TestRunner.java:632)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
-	at org.testng.TestNG.run(TestNG.java:1064)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="checkTitle2()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@4241e0f4]" started-at="2022-10-18T03:47:21Z" name="checkTitle2" finished-at="2022-10-18T03:47:22Z" duration-ms="1053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@8e50104]" started-at="2022-10-17T16:55:53Z" name="afterTest" finished-at="2022-10-17T16:55:53Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@4241e0f4]" started-at="2022-10-18T03:47:22Z" name="afterTest" finished-at="2022-10-18T03:47:22Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.sddevops.CWF_maven.eclipse.NewTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
