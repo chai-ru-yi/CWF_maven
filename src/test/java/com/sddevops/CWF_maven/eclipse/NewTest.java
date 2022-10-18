@@ -55,6 +55,5 @@ public class NewTest {
 		// webDriver.quit();
 	}
 	
-	//chai ru yi
 
 }
