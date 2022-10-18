@@ -167,22 +167,22 @@ public class ProductServlet extends HttpServlet {
 		response.sendRedirect("http://localhost:8010/CWF_maven.eclipse/ProductServlet/dashboard");
 	}
 
-	//method to delete user
+	// method to delete user
 	private void deleteProduct(HttpServletRequest request, HttpServletResponse response)
-	throws SQLException, IOException {
-	//Step 1: Retrieve value from the request
-	String productName = request.getParameter("product_name");
-	//Step 2: Attempt connection with database and execute delete user SQL query
-	try (Connection connection = getConnection(); PreparedStatement statement =
-	connection.prepareStatement(DELETE_PRODUCTS_SQL);) {
-	statement.setString(1, productName);
-	int i = statement.executeUpdate();
+			throws SQLException, IOException {
+		// Step 1: Retrieve value from the request
+		String productName = request.getParameter("product_name");
+		// Step 2: Attempt connection with database and execute delete user SQL query
+		try (Connection connection = getConnection();
+				PreparedStatement statement = connection.prepareStatement(DELETE_PRODUCTS_SQL);) {
+			statement.setString(1, productName);
+			int i = statement.executeUpdate();
+		}
+		// Step 3: redirect back to UserServlet dashboard (note: remember to change the
+		// url to your project name)
+		response.sendRedirect("http://localhost:8010/CWF_maven.eclipse/ProductServlet/dashboard");
 	}
-	//Step 3: redirect back to UserServlet dashboard (note: remember to change the url to your project name)
-	response.sendRedirect("http://localhost:8010/CWF_maven.eclipse/ProductServlet/dashboard");
-	}
-	
-	
+
 	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse
 	 *      response)
