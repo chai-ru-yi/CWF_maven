@@ -8,7 +8,6 @@
 	<groupId>com.sddevops</groupId>
 	<artifactId>CWF_maven.eclipse</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
 
 	<name>CWF_maven.eclipse</name>
 	<!-- FIXME change it to the project's website -->
@@ -195,6 +194,12 @@
 					<artifactId>maven-project-info-reports-plugin</artifactId>
 					<version>3.0.0</version>
 				</plugin>
+				
+				<plugin>
+   <groupId>org.sonarsource.scanner.maven</groupId>
+   <artifactId>sonar-maven-plugin</artifactId>
+   <version>3.6.0.1398</version>
+ </plugin>
 			</plugins>
 		</pluginManagement>
 	</build>
