@@ -25,7 +25,7 @@ public class NewTest {
 
 	@Test
 	public void checkTitle2() {
-		webDriver.navigate().to("http://localhost:8090/CWF_maven.eclipse/AddProductListing.jsp");
+		webDriver.navigate().to("http://localhost:8010/CWF_maven.eclipse/AddProductListing.jsp");
 
 		Assert.assertEquals(webDriver.getTitle(), "Add Product Listing");
 
