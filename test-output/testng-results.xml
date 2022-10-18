@@ -2,24 +2,24 @@
 <testng-results total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-18T10:47:18Z" name="Suite" finished-at="2022-10-18T10:47:22Z" duration-ms="4152">
+  <suite started-at="2022-10-18T20:03:12Z" name="Default suite" finished-at="2022-10-18T20:03:18Z" duration-ms="5853">
     <groups>
     </groups>
-    <test started-at="2022-10-18T10:47:18Z" name="Test" finished-at="2022-10-18T10:47:22Z" duration-ms="4152">
+    <test started-at="2022-10-18T20:03:12Z" name="Default test" finished-at="2022-10-18T20:03:18Z" duration-ms="5853">
       <class name="com.sddevops.CWF_maven.eclipse.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@4241e0f4]" started-at="2022-10-18T03:47:18Z" name="beforeTest" finished-at="2022-10-18T03:47:21Z" duration-ms="3081" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@545607f2]" started-at="2022-10-18T13:03:12Z" name="beforeTest" finished-at="2022-10-18T13:03:17Z" duration-ms="4769" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="checkTitle2()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@4241e0f4]" started-at="2022-10-18T03:47:21Z" name="checkTitle2" finished-at="2022-10-18T03:47:22Z" duration-ms="1053" status="PASS">
+        <test-method signature="checkTitle2()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@545607f2]" started-at="2022-10-18T13:03:17Z" name="checkTitle2" finished-at="2022-10-18T13:03:18Z" duration-ms="977" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkTitle2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@4241e0f4]" started-at="2022-10-18T03:47:22Z" name="afterTest" finished-at="2022-10-18T03:47:22Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@545607f2]" started-at="2022-10-18T13:03:18Z" name="afterTest" finished-at="2022-10-18T13:03:18Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- com.sddevops.CWF_maven.eclipse.NewTest -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
