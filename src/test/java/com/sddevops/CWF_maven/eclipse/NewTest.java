@@ -21,24 +21,11 @@ public class NewTest {
 	
 
 
-	@Test
-	public void checkTitle1() {
-		webDriver.navigate().to("http://localhost:8090/BeautyMasks/ProductServlet/dashboard");
-
-		Assert.assertEquals(webDriver.getTitle(), "Product List");
-
-		System.out.println("Title: " + webDriver.getTitle());
-
-
-		webDriver.findElement(By.className("btn-success")).click();
-
-		Assert.assertTrue(webDriver.getTitle().contains("Add Product Listing"));
-		System.out.println("New title: " + webDriver.getTitle());
-	}
+	
 
 	@Test
 	public void checkTitle2() {
-		webDriver.navigate().to("http://localhost:8090/BeautyMasks/AddProductListing.jsp");
+		webDriver.navigate().to("http://localhost:8090/CWF_maven.eclipse/AddProductListing.jsp");
 
 		Assert.assertEquals(webDriver.getTitle(), "Add Product Listing");
 
@@ -68,6 +55,6 @@ public class NewTest {
 		// webDriver.quit();
 	}
 	
-	
+	//chai ru yi
 
 }

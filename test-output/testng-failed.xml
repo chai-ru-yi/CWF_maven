@@ -11,7 +11,7 @@
       <class name="com.sddevops.CWF_maven.eclipse.NewTest">
         <methods>
           <include name="afterTest"/>
-          <include name="checkTitle1"/>
+          <include name="checkTitle2"/>
           <include name="beforeTest"/>
         </methods>
       </class> <!-- com.sddevops.CWF_maven.eclipse.NewTest -->

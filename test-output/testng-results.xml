@@ -1,30 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="2" passed="1" failed="1" skipped="0">
+<testng-results total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-17T22:35:10Z" name="Default suite" finished-at="2022-10-17T22:35:15Z" duration-ms="5231">
+  <suite started-at="2022-10-17T23:55:47Z" name="Default suite" finished-at="2022-10-17T23:55:53Z" duration-ms="6216">
     <groups>
     </groups>
-    <test started-at="2022-10-17T22:35:10Z" name="Default test" finished-at="2022-10-17T22:35:15Z" duration-ms="5231">
+    <test started-at="2022-10-17T23:55:47Z" name="Default test" finished-at="2022-10-17T23:55:53Z" duration-ms="6216">
       <class name="com.sddevops.CWF_maven.eclipse.NewTest">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@37e4d7bb]" started-at="2022-10-17T15:35:10Z" name="beforeTest" finished-at="2022-10-17T15:35:13Z" duration-ms="3053" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@8e50104]" started-at="2022-10-17T16:55:47Z" name="beforeTest" finished-at="2022-10-17T16:55:52Z" duration-ms="5238" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method signature="checkTitle1()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@37e4d7bb]" started-at="2022-10-17T15:35:13Z" name="checkTitle1" finished-at="2022-10-17T15:35:14Z" duration-ms="1418" status="FAIL">
+        <test-method signature="checkTitle2()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@8e50104]" started-at="2022-10-17T16:55:52Z" name="checkTitle2" finished-at="2022-10-17T16:55:53Z" duration-ms="893" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[expected [Product List] but found [Apache Tomcat/8.0.36 - Error report]]]>
+              <![CDATA[expected [Add Product Listing] but found [HTTP Status 500 – Internal Server Error]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Product List] but found [Apache Tomcat/8.0.36 - Error report]
+              <![CDATA[java.lang.AssertionError: expected [Add Product Listing] but found [HTTP Status 500 – Internal Server Error]
 	at org.testng.Assert.fail(Assert.java:94)
 	at org.testng.Assert.failNotEquals(Assert.java:513)
 	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
 	at org.testng.Assert.assertEquals(Assert.java:116)
 	at org.testng.Assert.assertEquals(Assert.java:190)
 	at org.testng.Assert.assertEquals(Assert.java:200)
-	at com.sddevops.CWF_maven.eclipse.NewTest.checkTitle1(NewTest.java:28)
+	at com.sddevops.CWF_maven.eclipse.NewTest.checkTitle2(NewTest.java:28)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -54,12 +54,8 @@
           </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkTitle1 -->
-        <test-method signature="checkTitle2()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@37e4d7bb]" started-at="2022-10-17T15:35:14Z" name="checkTitle2" finished-at="2022-10-17T15:35:15Z" duration-ms="695" status="PASS">
-          <reporter-output>
-          </reporter-output>
         </test-method> <!-- checkTitle2 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@37e4d7bb]" started-at="2022-10-17T15:35:15Z" name="afterTest" finished-at="2022-10-17T15:35:15Z" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.sddevops.CWF_maven.eclipse.NewTest@8e50104]" started-at="2022-10-17T16:55:53Z" name="afterTest" finished-at="2022-10-17T16:55:53Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
